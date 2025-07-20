@@ -18,6 +18,7 @@ app.get("/", (req, res) => {
     ]
   });
 });
-app.listen(port, () => {
-    console.log("Portfolio server running on http://localhost:3000");
+const PORT = process.env.PORT || port;
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
