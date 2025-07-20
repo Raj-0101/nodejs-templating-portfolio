@@ -7,6 +7,11 @@
 - 📄 EJS Templating
 - 🎨 HTML5 + CSS3
 
+- ## 🌐 Live Demo
+
+👉 [Click here to visit the live portfolio](https://nodejs-templating-portfolio.onrender.com)
+
+
 ## 🔍 Features
 
 - ✅ All content rendered on a single dynamic page
