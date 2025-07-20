@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= name %>'s Potfolio</title>
+    <link rel="stylesheet", href="/style1.css">
+</head>
+<body>
+    <header>
+        <h1>Hi, I am <%= name %> 👋</h1>
+        <p>A passionate developer exploring frontend and backend technologies.</p>
+    </header>
+    <section>
+        <h2>🛠️ Skills</h2>
+        <ul>
+            <% skills.forEach(skill => { %>
+                <li><%= skill %></li>
+            <% }) %>
+        </ul>
+    </section>
+    <section>
+        <h2>💡 Interests</h2>
+        <ul>
+            <% interests.forEach(interest => { %>
+                <li><%= interest %></li>
+            <% }) %>
+        </ul>
+    </section>
+    <section>
+        <h2>📌 Recent Tasks</h2>
+        <ul>
+            <% recentTasks.forEach(task => { %>
+                <li><%= task %></li>
+            <% }) %>
+        </ul>
+    </section>
+    <footer>
+    <p>Made with ❤️ using EJS and Express</p>
+  </footer>
+</body>
+</html>
